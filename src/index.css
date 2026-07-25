@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-luxury {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  }
+  .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-sans-clean {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+:root {
+  --color-gold: #C5A059;
+  --color-gold-light: #E6CA85;
+  --color-gold-dark: #8C6A23;
+  --color-cream: #FAF8F5;
+  --color-ivory: #F4EFE6;
+  --color-onyx: #121110;
+  --color-hermes: #D9531E;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #FAF8F5;
+  color: #1A1817;
+  overflow-x: hidden;
+}
+
+/* Custom Gold Gradient Text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #B38E46 0%, #D4AF37 35%, #F3E5AB 50%, #C5A059 75%, #8C6A23 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle Luxury Border */
+.border-gold-subtle {
+  border-color: rgba(197, 160, 89, 0.25);
+}
+
+.border-gold-glow {
+  box-shadow: 0 0 15px rgba(197, 160, 89, 0.15);
+}
+
+/* Glass & Card effects */
+.luxury-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(197, 160, 89, 0.2);
+}
+
+/* Custom Gold Button Glow */
+.btn-gold {
+  background: linear-gradient(135deg, #1A1817 0%, #2A2725 100%);
+  color: #F4EFE6;
+  border: 1px solid rgba(197, 160, 89, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, #C5A059 0%, #B38E46 100%);
+  color: #000000;
+  box-shadow: 0 4px 20px rgba(197, 160, 89, 0.3);
+  border-color: #D4AF37;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8C6A23;
+}

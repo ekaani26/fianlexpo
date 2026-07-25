@@ -1,0 +1,6 @@
+{
+  "name": "Ekaani Luxury Catalogue",
+  "description": "Hermès and Dior inspired luxury lead capture and QR automation form for Ekaani with instant catalogue auto-download and central Google Sheet database sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

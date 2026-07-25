@@ -1,0 +1,14 @@
+{
+  "recipientEmail": "testmailekaani@gmail.com",
+  "sheetId": "Email_Delivery_FormSubmit",
+  "sheetName": "FormSubmit.co Email Service",
+  "webhookUrl": "",
+  "autoSync": true,
+  "lastSyncedAt": "2026-07-25T09:58:34.659Z",
+  "totalSyncedCount": 6,
+  "lastEmailError": null,
+  "watiAccessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkVrYWFuaW5vcml0YWtlQGdtYWlsLmNvbSIsIm5hbWVpZCI6IkVrYWFuaW5vcml0YWtlQGdtYWlsLmNvbSIsImVtYWlsIjoiRWthYW5pbm9yaXRha2VAZ21haWwuY29tIiwiYXV0aF90aW1lIjoiMDcvMTcvMjAyNiAwNzoxNTo1NiIsInRlbmFudF9pZCI6IjU2ODAiLCJkYl9uYW1lIjoibXQtcHJvZC1UZW5hbnRzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQURNSU5JU1RSQVRPUiIsImV4cCI6MjUzNDAyMzAwODAwLCJpc3MiOiJDbGFyZV9BSSIsImF1ZCI6IkNsYXJlX0FJIn0.QghUssvs5d0XBPvUvymUfY6zpfuJLWEwhYrseKrpcYE",
+  "watiEndpoint": "https://live-mt-server.wati.io/5680/api/v1/sendTemplateMessage",
+  "watiTemplateName": "gift_expo_cata_form",
+  "watiBroadcastName": "Ekaani Catalogue Lead"
+}
